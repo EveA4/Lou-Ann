@@ -6,7 +6,7 @@ l = voc.shape[0]
 if "indices" in st.session_state:
   indices=st.session_state["indices"]
 else :
-    indices=np.random...
+    indices=np.random
 j = np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
 st.write('Traduis: '+word_fr)
